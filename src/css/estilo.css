@@ -1,0 +1,133 @@
+/* FONTES IMPORTADAS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/* RESET UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONFIGURAÇÕES BODY */
+body{
+    font-family: "Roboto flex", sans-serif;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    width: 100%;
+    background: #602540;
+    color: #FF9FC5;
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #FF9FC5;
+}
+
+.menu button{
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 3px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* CONTEUDO */
+/* BANNER */
+.banner{
+    width: 100%;
+}
+
+/* SEÇÃO MARVEL */
+.secao-marvel{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao-marvel img{
+    width: 30%;
+    height: auto;
+    border-radius: 40%;
+}
+
+/* SEÇÃO DC */
+.secao-dc{
+    display: flex;
+    margin: 70px 20px;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.secao-dc img{
+    width: 50%;
+    height: auto;
+    border-radius: 180px;
+}
+
+/* AMBAS SEÇÕES */
+.conteudo-texto{
+    background: #FF9FC5;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.conteudo-texto h2{
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.conteudo-texto p{
+    text-align: justify;
+    color: #000;
+    font-weight: 700;
+}
+
+/* FOOTER */
+footer{
+    background: #96305A;
+    text-align: center;
+    padding: 10px;  
+}
+
+.social-footer{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer p{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 0.8em;
+}
