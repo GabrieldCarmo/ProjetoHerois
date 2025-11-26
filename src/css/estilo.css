@@ -89,7 +89,27 @@ header h1 {
     border-radius: 180px;
 }
 
+/* AMBAS SEÇÕES */
+.conteudo-texto {
+    background: #FF9FC5;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
 
+.conteudo-texto h2 {
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.conteudo-texto p {
+    text-align: justify;
+    color: #000;
+    font-weight: 700;
+}
 
 /* FOOTER */
 footer {
@@ -111,3 +131,4 @@ footer p {
     font-weight: 700;
     font-size: 0.8em;
 }
+
