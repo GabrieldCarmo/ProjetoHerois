@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 /* RESET UNIVERSAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* CONFIGURAÇÕES BODY */
-body{
+body {
     font-family: "Roboto flex", sans-serif;
 }
 
 /* HEADER */
-header{
+header {
     display: flex;
     width: 100%;
     background: #602540;
@@ -24,7 +24,7 @@ header{
     align-items: center;
 }
 
-header h1{
+header h1 {
     font-weight: 400;
     font-size: 2.5em;
 }
@@ -35,18 +35,18 @@ header h1{
     align-items: center;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.menu ul li a{
+.menu ul li a {
     text-decoration: none;
     color: #FF9FC5;
 }
 
-.menu button{
+.menu button {
     padding: 15px 25px;
     border-radius: 20px;
     border: 3px;
@@ -56,26 +56,26 @@ header h1{
 
 /* CONTEUDO */
 /* BANNER */
-.banner{
+.banner {
     width: 100%;
 }
 
 /* SEÇÃO MARVEL */
-.secao-marvel{
+.secao-marvel {
     display: flex;
     margin: 20px;
     justify-content: space-around;
     align-items: center;
 }
 
-.secao-marvel img{
+.secao-marvel img {
     width: 30%;
     height: auto;
     border-radius: 40%;
 }
 
 /* SEÇÃO DC */
-.secao-dc{
+.secao-dc {
     display: flex;
     margin: 70px 20px;
     justify-content: space-around;
@@ -83,14 +83,14 @@ header h1{
     align-items: center;
 }
 
-.secao-dc img{
+.secao-dc img {
     width: 50%;
     height: auto;
     border-radius: 180px;
 }
 
 /* AMBAS SEÇÕES */
-.conteudo-texto{
+.conteudo-texto {
     background: #FF9FC5;
     width: 500px;
     border-radius: 20px;
@@ -99,26 +99,26 @@ header h1{
     text-align: center;
 }
 
-.conteudo-texto h2{
+.conteudo-texto h2 {
     font-weight: 900;
     font-size: 2em;
     margin-bottom: 40px;
 }
 
-.conteudo-texto p{
+.conteudo-texto p {
     text-align: justify;
     color: #000;
     font-weight: 700;
 }
 
 /* FOOTER */
-footer{
+footer {
     background: #96305A;
     text-align: center;
-    padding: 10px;  
+    padding: 10px;
 }
 
-.social-footer{
+.social-footer {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -126,7 +126,7 @@ footer{
     padding: 40px;
 }
 
-footer p{
+footer p {
     color: #FFF;
     font-weight: 700;
     font-size: 0.8em;
