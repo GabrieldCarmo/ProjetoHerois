@@ -74,20 +74,7 @@ header h1 {
     border-radius: 40%;
 }
 
-/* SEÇÃO DC */
-.secao-dc {
-    display: flex;
-    margin: 70px 20px;
-    justify-content: space-around;
-    margin-bottom: 150px;
-    align-items: center;
-}
 
-.secao-dc img {
-    width: 50%;
-    height: auto;
-    border-radius: 180px;
-}
 
 /* AMBAS SEÇÕES */
 .conteudo-texto {
@@ -111,3 +98,23 @@ header h1 {
     font-weight: 700;
 }
 
+/* FOOTER */
+footer {
+    background: #96305A;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-footer {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer p {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 0.8em;
+}
