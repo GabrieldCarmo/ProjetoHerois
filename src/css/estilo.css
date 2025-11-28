@@ -50,6 +50,7 @@ header h1 {
     padding: 15px 25px;
     border-radius: 20px;
     border: 3px;
+    color: #602540;
     font-weight: 900;
     cursor: pointer;
 }
